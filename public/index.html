@@ -1,0 +1,20 @@
+<!doctype html>
+
+<html ng-app="WatchpostApp">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Watch|Post</title>
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+	<script src="app.js"></script>
+	<script src="controllers/main.controller.js"></script>
+</head>
+<body ng-controller="MainCTRL">
+	<p>Here is something</p>
+	<div ng-repeat="user in users">
+		<h3>{{user.fname}} {{user.lname}}</h3>
+	</div>
+</body>
+</html>
