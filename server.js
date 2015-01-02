@@ -75,5 +75,5 @@ app.get('*', function(req, res){
 	res.sendfile('./public/index.html');
 });	
 
-app.listen(666);
-console.log("App listening on port 666");
+app.listen(8080);
+console.log("App listening on port 8080");
