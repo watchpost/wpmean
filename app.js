@@ -6,7 +6,7 @@ var morgan = require('morgan');
 var bodyParser = require('body-parser');
 var methodOverride = require('method-override');
 
-mongoose.connect('mongodb://wpdba:lim1t<$Plz@ds045097.mongolab.com:45097/wpostdb', function(err) {
+mongoose.connect('mongodb://wpdba:password@ds045097.mongolab.com:45097/wpostdb', function(err) {
     if(err) {
         console.log('connection error', err);
     } else {
